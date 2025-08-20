@@ -33,6 +33,7 @@ function login() {
 
     if (user === usuario && pass === clave) {
       alert(" Bienvenido " + usuario);
+       window.location.href = "paginaprincipal.html";
       break;
     } else {
       intentos = intentos - 1;
