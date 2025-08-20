@@ -1,0 +1,36 @@
+body.inicio {
+  background: linear-gradient(135deg, #fce7f9, #ffffff);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #4a0040;
+  height: 100vh;
+}
+
+body.inicio h1 {
+  color: #b30086;
+  font-size: 2.2em;
+  margin-top: 50px;
+}
+
+body.inicio p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+body.inicio button {
+  background: #e600a9;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+body.inicio button:hover {
+  background: #b30086;
+}
