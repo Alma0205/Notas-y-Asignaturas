@@ -1,30 +1,27 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background: #f4f4f4;
+ background: linear-gradient(135deg, #fce7f9, #ffffff);
   text-align: center;
   margin-top: 200px;
   font-size: 30px;
-  background-image: url("depositphotos_7887354-stock-photo-stars-background-01.webp");
   background-size: cover;     
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 
-button {
-  margin-top: 200px;
-  padding: 14px;
-  width: 80%;
-  background: #e62ee6;
+ button {
+  background: #e600a9;
   color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
   border: none;
   border-radius: 8px;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background: #ac339b;
+  background: #b30086;
 }
