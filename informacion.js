@@ -3,37 +3,44 @@ let clave = "";
 let intentos = 3;
 
 function registrar() {
+
+  usuario = "";
+  clave = "";
+
   while (usuario === "") {
-    usuario = prompt("Escribe tu usuario:");
+    usuario = prompt(" Escribe tu usuario:");
     if (usuario === "") {
-      alert("Debes escribir un usuario.");
+      alert(" Debes escribir un usuario.");
     }
   }
 
   while (clave === "") {
-    clave = prompt("Escribe tu contraseña:");
+    clave = prompt(" Escribe tu contraseña:");
     if (clave === "") {
       alert("Debes escribir una contraseña.");
     }
   }
 
   alert("Usuario registrado: " + usuario);
+}
 
- 
+function login() {
+  intentos = 3;
+
   while (intentos > 0) {
     let user = prompt("Ingresa tu usuario:");
     let pass = prompt("Ingresa tu contraseña:");
 
     if (user === usuario && pass === clave) {
-      alert("Bienvenido " + usuario);
+      alert(" Bienvenido " + usuario);
       break;
     } else {
       intentos = intentos - 1;
-      alert("Datos incorrectos. Intentos restantes: " + intentos);
+      alert(" Datos incorrectos. Intentos restantes: " + intentos);
     }
 
     if (intentos === 0) {
-      alert("Usuario bloqueado");
+      alert(" Usuario bloqueado");
     }
   }
 }
